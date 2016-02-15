@@ -1,0 +1,15 @@
+/*
+Theme Name: Kristen Blank Theme
+Theme URI: URL for Kristen Blank
+Author: Kristen P
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: Kristen_P_blank_template
+*/
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
