@@ -1,7 +1,7 @@
     <!-- BEGINNING OF FOOTER - END SECTION CONTENT -->
         <footer class="row">
             <div class="twelve columns">
-                <p>Footer content goes here.</p>
+                <p>Footer stuff...</p>
             </div>
         </footer>
     </div> <!-- ends container -->
