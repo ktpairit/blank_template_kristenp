@@ -8,6 +8,9 @@ License: Open
 Text Domain: Kristen_P_blank_template
 */
 
+@import url("css/normalize.css");
+@import url("css/skeleton.css"); /*order of these files matter, note how the normalize is first and skeleton is second*/
+
 *{
     color: #000000;
     font-size: 14px;
