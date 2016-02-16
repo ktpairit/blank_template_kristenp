@@ -1,3 +1,2 @@
-            <h3>Sidebar Text</h3>
-            <p>This is the sidebar content to put in here.</p>
-            <p>More Stuff...</p>
+<h2>Sidebar Text</h2>
+<?php dynamic_sidebar('first-widget'); ?>

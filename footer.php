@@ -1,7 +1,13 @@
     <!-- BEGINNING OF FOOTER - END SECTION CONTENT -->
         <footer class="row">
-            <div class="twelve columns">
-                <p>Footer stuff...</p>
+            <div class="four columns">
+                <?php dynamic_sidebar('footer-left'); ?>
+            </div>
+            <div class="four columns">
+                <?php dynamic_sidebar('footer-middle'); ?>
+            </div>
+            <div class="four columns">
+                <?php dynamic_sidebar('footer-right'); ?>
             </div>
         </footer>
     </div> <!-- ends container -->
