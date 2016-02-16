@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Web Interactivity and Engagement</title>
+    <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 <?php wp_head(); ?>
 </head>
