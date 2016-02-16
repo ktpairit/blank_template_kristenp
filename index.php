@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
         <section class="row">
-            <div class="twelve columns">
+            <div class="nine columns">
         <!-- BEGIN LOOP -->
                 <?php
                 if ( have_posts() ) {
@@ -14,6 +14,9 @@
                 ?>
         <!-- END LOOP -->
             </div>
+            <div class="three columns">
+                <h4>Sidebar</h4>
+                <p>Sidebar paragraph...</p>
         </section>
 
 <?php get_footer(); ?>

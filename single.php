@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
         <section class="row">
-            <div class="twelve columns">
+            <div class="two columns">
+                <p>Sidebar</p>
+            </div>
+            <div class="eight columns">
         <!-- BEGIN LOOP -->
                 <?php
                 if ( have_posts() ) {
@@ -13,6 +16,9 @@
                 } // end if
                 ?>
         <!-- END LOOP -->
+            </div>
+            <div class="two columns">
+                <p>Sidebar</p>
             </div>
         </section>
 

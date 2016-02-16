@@ -1,7 +1,13 @@
 <?php get_header(); ?>
 
     <div class="row">
-        <div class="twelve columns">
+<!-- BEGIN SIDEBAR -->
+        <div class="three columns">
+            <h3>Sidebar Text</h3>
+            <p>This is the sidebar content to put in here.</p>
+        </div>
+<!-- END SIDEBAR -->
+        <div class="nine columns">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) :
                 /* OUR DATA CONTEXT IS DEFINED  */
